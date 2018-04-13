@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Evolent.Web.Models.VMContact>
+@{
+    ViewBag.Title = "Contact Details";
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<div class="container">
+    <div id="main-div">
+        <div class="clearfix">&nbsp;</div>
+        <div class="clearfix">&nbsp;</div>
+        <div class="container">
+
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="panel panel-default panel-table">
+
+                        <div class="panel-heading">
+
+                            <div class="row">
+
+                                <div class="col col-xs-6">
+
+                                    <h3 class="panel-title btn">Contact Details</h3>
+
+                                </div>
+
+                                <div class="col col-xs-6 text-right">
+
+                                    <a href="@Url.Action("Add", "Home")" id="Add" class="btn btn-primary"><i class="glyphicon glyphicon-plus"></i>&nbsp;Create New</a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="panel-body" style="padding-bottom:1px">
+
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>This is a small modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" id="btnclose" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="div-record">
+                                @Html.Partial("_Detail")
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="Add-Model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">New Contact</h4>
+                        </div>
+                        <div class="divForAdd">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="Edit-Model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Update Contact</h4>
+                        </div>
+                        <div class="divForUpdate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

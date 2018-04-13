@@ -1,0 +1,4 @@
+D:\Evolent_accessment\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities.pdb
+D:\Evolent_accessment\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.pdb

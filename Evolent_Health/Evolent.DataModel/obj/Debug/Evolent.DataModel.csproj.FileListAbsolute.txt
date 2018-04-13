@@ -1,0 +1,10 @@
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\Evolent.DataModel.dll.config
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\Evolent.DataModel.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\Evolent.DataModel.pdb
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\EntityFramework.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\EntityFramework.xml
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\obj\Debug\Evolent.DataModel.csprojResolveAssemblyReference.cache
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\obj\Debug\Evolent.DataModel.dll
+D:\Evolent_accessment\Evolent_Health\Evolent.DataModel\obj\Debug\Evolent.DataModel.pdb

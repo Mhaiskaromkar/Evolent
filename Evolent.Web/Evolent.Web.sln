@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Web
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Web", "Evolent.Web\Evolent.Web.csproj", "{2B206753-82F0-404A-AE25-CA14C70AAD24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evolent.Web.Tests", "Evolent.Web.Tests\Evolent.Web.Tests.csproj", "{3418A904-B6F1-4F57-AB24-6F04041D0892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B206753-82F0-404A-AE25-CA14C70AAD24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B206753-82F0-404A-AE25-CA14C70AAD24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B206753-82F0-404A-AE25-CA14C70AAD24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B206753-82F0-404A-AE25-CA14C70AAD24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3418A904-B6F1-4F57-AB24-6F04041D0892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3418A904-B6F1-4F57-AB24-6F04041D0892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3418A904-B6F1-4F57-AB24-6F04041D0892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3418A904-B6F1-4F57-AB24-6F04041D0892}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
