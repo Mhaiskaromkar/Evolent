@@ -9,6 +9,9 @@ using System.Linq;
 
 namespace Evolent.Services.Services
 {
+    /// <summary>
+    /// <see cref="ContactServices"/>  class which inherits <see cref="IContactServices"/> interface.
+    /// </summary>
     public class ContactServices : IContactServices
     {
         #region Private variables

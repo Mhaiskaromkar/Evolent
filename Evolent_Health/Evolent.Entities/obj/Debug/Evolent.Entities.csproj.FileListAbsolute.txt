@@ -2,3 +2,8 @@ D:\Evolent_accessment\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities
 D:\Evolent_accessment\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities.pdb
 D:\Evolent_accessment\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.dll
 D:\Evolent_accessment\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.pdb
+D:\Evolent_Git\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities.dll
+D:\Evolent_Git\Evolent_Health\Evolent.Entities\bin\Debug\Evolent.Entities.pdb
+D:\Evolent_Git\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.csprojResolveAssemblyReference.cache
+D:\Evolent_Git\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.dll
+D:\Evolent_Git\Evolent_Health\Evolent.Entities\obj\Debug\Evolent.Entities.pdb

@@ -26,7 +26,7 @@ namespace Evolent.Web.Controllers
 
 
         #region Methods
-
+        // GET: Home
         public ActionResult Contact()
         {
             List<VMContact> Contacts = _contactServices.GetContacts();
@@ -40,7 +40,9 @@ namespace Evolent.Web.Controllers
             return PartialView();
         }
 
+        // POST: Home/Add
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Add(VMContact model)
         {
             if (ModelState.IsValid)
@@ -63,6 +65,8 @@ namespace Evolent.Web.Controllers
             }
         }
 
+
+        // GET: Home/Edit/5
         public ActionResult Edit(int id)
         {
             VMContact Contacts = null;
@@ -78,9 +82,12 @@ namespace Evolent.Web.Controllers
             }
 
             return PartialView(Contacts);
+
         }
 
+        // POST: Home/Edit
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Edit(VMContact model, int id)
         {
             if (ModelState.IsValid)
@@ -104,6 +111,7 @@ namespace Evolent.Web.Controllers
             }
         }
 
+        //[ValidateAntiForgeryToken]
         public ActionResult Delete(int id)
         {
             int result = _contactServices.DeleteContact(id);
